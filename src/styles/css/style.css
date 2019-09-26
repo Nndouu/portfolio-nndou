@@ -1,5 +1,5 @@
 body {
-  background-color: rgba(9, 17, 17, 0.8); }
+  background-color: rgba(16, 20, 20, 0.99); }
 
 .home {
   height: 100vh;
@@ -166,12 +166,21 @@ body {
     transform: translateY(-1000px) rotate(720deg);
     opacity: 0;
     border-radius: 50%; } }
+.projects h2 {
+  color: #11aba2; }
+.projects h3 {
+  color: #11aba2;
+  margin: 50px 0; }
 .projects .contacter {
   height: 700px;
-  background-color: #568192; }
+  background-color: rgba(112, 202, 187, 0.02);
+  padding: 30px;
+  margin-bottom: 30px; }
 .projects .g-finder {
   height: 700px;
-  background-color: #abb8e2; }
+  background-color: rgba(112, 202, 187, 0.02);
+  padding: 30px;
+  margin-bottom: 30px; }
 
 .skills {
   background-color: #566492;

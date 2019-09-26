@@ -3,7 +3,7 @@ $primary-green-light: #0fd35c;
 $primary-green: #11aba2;
 body {
   //   background: url("../../images/bridge-2122681.jpg");
-  background-color: rgba(9, 17, 17, 0.8);
+  background-color: rgba(16, 20, 20, 0.99);
 }
 
 // ######## Home Section ########
@@ -226,13 +226,25 @@ body {
 
 //######## Projects Section ########
 .projects {
+  h2 {
+    color: #11aba2;
+  }
+  h3 {
+    color: #11aba2;
+    margin: 50px 0;
+  }
+
   .contacter {
     height: 700px;
-    background-color: #568192;
+    background-color: rgba(112, 202, 187, 0.02);
+    padding: 30px;
+    margin-bottom: 30px;
   }
   .g-finder {
     height: 700px;
-    background-color: #abb8e2;
+    background-color: rgba(112, 202, 187, 0.02);
+    padding: 30px;
+    margin-bottom: 30px;
   }
 }
 
