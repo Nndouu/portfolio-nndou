@@ -2,9 +2,9 @@ import React from "react";
 
 const Skills = () => {
   return (
-    <div>
+    <section className='skills'>
       <h2>Skills</h2>
-    </div>
+    </section>
   );
 };
 
