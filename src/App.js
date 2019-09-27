@@ -6,15 +6,6 @@ import Projects from "./components/pages/Projects";
 import Skills from "./components/pages/Skills";
 import Contact from "./components/pages/Contact";
 // import NotFound from "./components/pages/NotFound";
-import {
-  Link,
-  DirectLink,
-  Element,
-  Events,
-  animateScroll as scroll,
-  scrollSpy,
-  scroller
-} from "react-scroll";
 
 import "./styles/css/bootstrap.css";
 import "./styles/css/style.css";

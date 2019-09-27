@@ -5,6 +5,7 @@ const Home = () => {
     <section className='home'>
       <div className='home-background'>
         <div className='overlay'>
+          {/* Background animation */}
           <ul class='circles'>
             <li></li>
             <li></li>
@@ -38,10 +39,10 @@ const Home = () => {
           >
             <span>Github</span>
           </a>
-          <a href='#'>
+          <a href='#!'>
             <span>Email</span>
           </a>
-          <a href='#'>
+          <a href='#!'>
             <span>Resume</span>
           </a>
         </div>

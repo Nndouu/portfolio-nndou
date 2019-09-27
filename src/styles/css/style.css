@@ -6,9 +6,9 @@ body {
   display: flex;
   justify-content: center;
   align-items: center; }
-  .home h1 {
+  .home .home-content h1 {
     font-size: 7rem; }
-  .home a {
+  .home .home-content a {
     color: #fff;
     font-size: 35px;
     border-radius: 4px;
@@ -26,9 +26,9 @@ body {
     -moz-transition: all 0.5s;
     transition: all 0.5s;
     -webkit-font-smoothing: antialiased; }
-  .home a:hover {
+  .home .home-content a:hover {
     color: #11aba2; }
-  .home a span {
+  .home .home-content a span {
     color: #666;
     position: absolute;
     font-family: sans-serif;
@@ -46,7 +46,7 @@ body {
     -webkit-transition: all 0.5s cubic-bezier(0.68, -0.55, 0.265, 1.55);
     -moz-transition: all 0.5s cubic-bezier(0.68, -0.55, 0.265, 1.55);
     transition: all 0.5s cubic-bezier(0.68, -0.55, 0.265, 1.55); }
-  .home a span:before {
+  .home .home-content a span:before {
     content: "";
     width: 0;
     height: 0;
@@ -56,17 +56,17 @@ body {
     position: absolute;
     bottom: -5px;
     left: 40px; }
-  .home a:hover span {
+  .home .home-content a:hover span {
     bottom: 50px;
     visibility: visible;
     opacity: 1; }
-  .home a:nth-of-type(1):before {
+  .home .home-content a:nth-of-type(1):before {
     content: "\f0e1"; }
-  .home a:nth-of-type(2):before {
+  .home .home-content a:nth-of-type(2):before {
     content: "\f09b"; }
-  .home a:nth-of-type(3):before {
+  .home .home-content a:nth-of-type(3):before {
     content: "\f1fa"; }
-  .home a:nth-of-type(4):before {
+  .home .home-content a:nth-of-type(4):before {
     content: "\f2bb"; }
   .home .home-background {
     height: 100vh;
@@ -188,6 +188,6 @@ body {
 
 .contact {
   background-color: #568192;
-  height: 700px; }
+  height: 1500px; }
 
 /*# sourceMappingURL=style.css.map */

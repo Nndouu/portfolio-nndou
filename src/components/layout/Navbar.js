@@ -1,15 +1,24 @@
-import React from "react";
-import {
-  Link,
-  DirectLink,
-  Element,
-  Events,
-  animateScroll as scroll,
-  scrollSpy,
-  scroller
-} from "react-scroll";
+import React, { useState } from "react";
+import { Link } from "react-scroll";
 
 const Navbar = () => {
+  //
+  const [homeColor, setHomeColor] = useState("nav-link text-light");
+  const handleHomeActive = () => setHomeColor("nav-link text-primary");
+  const handleHomeInactive = () => setHomeColor("nav-link text-light");
+
+  const [projectsColor, setProjectsColor] = useState("nav-link text-light");
+  const handleProjectsActive = () => setProjectsColor("nav-link text-primary");
+  const handleProjectsInactive = () => setProjectsColor("nav-link text-light");
+
+  const [skillsColor, setSkillsColor] = useState("nav-link text-light");
+  const handleSkillsActive = () => setSkillsColor("nav-link text-primary");
+  const handleSkillsInactive = () => setSkillsColor("nav-link text-light");
+
+  const [contactColor, setContactColor] = useState("nav-link text-light");
+  const handleContactActive = () => setContactColor("nav-link text-primary");
+  const handleContactInactive = () => setContactColor("nav-link text-light");
+
   return (
     <nav className='navbar navbar-expand fixed-top'>
       <div className='container'>
@@ -21,7 +30,9 @@ const Navbar = () => {
               spy={true}
               smooth={true}
               duration={500}
-              className='nav-link text-primary'
+              className={homeColor}
+              onSetActive={handleHomeActive}
+              onSetInactive={handleHomeInactive}
             >
               Home
             </Link>
@@ -33,7 +44,9 @@ const Navbar = () => {
               spy={true}
               smooth={true}
               duration={500}
-              className='nav-link text-light'
+              className={projectsColor}
+              onSetActive={handleProjectsActive}
+              onSetInactive={handleProjectsInactive}
             >
               Projects
             </Link>
@@ -45,7 +58,9 @@ const Navbar = () => {
               spy={true}
               smooth={true}
               duration={500}
-              className='nav-link text-light'
+              className={skillsColor}
+              onSetActive={handleSkillsActive}
+              onSetInactive={handleSkillsInactive}
             >
               Skills
             </Link>
@@ -57,7 +72,9 @@ const Navbar = () => {
               spy={true}
               smooth={true}
               duration={500}
-              className='nav-link text-light'
+              className={contactColor}
+              onSetActive={handleContactActive}
+              onSetInactive={handleContactInactive}
             >
               Contact
             </Link>
