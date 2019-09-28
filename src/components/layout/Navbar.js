@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import { Link } from "react-scroll";
 
 const Navbar = () => {
-  //
+  //Scroll spy state change
   const [homeColor, setHomeColor] = useState("nav-link text-light");
   const handleHomeActive = () => setHomeColor("nav-link text-primary");
   const handleHomeInactive = () => setHomeColor("nav-link text-light");

@@ -6,7 +6,7 @@ const Home = () => {
       <div className='home-background'>
         <div className='overlay'>
           {/* Background animation */}
-          <ul class='circles'>
+          <ul className='circles'>
             <li></li>
             <li></li>
             <li></li>
