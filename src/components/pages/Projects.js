@@ -6,7 +6,9 @@ import Portfolio from "../projects/Portfolio";
 const Projects = () => {
   return (
     <section className='projects'>
-      <h2 className='text-primary my-5 text-center'>Projects</h2>
+      <h6 className='text-center'>View My Projects</h6>
+      <h2 className='text-center'>Projects</h2>
+      <div className='underline'></div>
       {/* Project Contecter */}
       <Contacter />
       {/* Project G-finder */}

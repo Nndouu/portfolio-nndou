@@ -1,11 +1,29 @@
 import React from "react";
+import GfinderImg from "../../images/project-images/gfinder_1.png";
+import Tilt from "react-parallax-tilt";
 
 const Gfinder = () => {
   return (
     <div className='g-finder'>
       <h3>G-finder</h3>
       <div className='row'>
-        <div className='col-md-6'>img</div>
+        <div className='col-md-6'>
+          {" "}
+          <Tilt
+            glareEnable={true}
+            glareMaxOpacity={0.8}
+            glareColor='rgba(16, 20, 20, 0.5)'
+            glarePosition='all'
+            scale='1.25'
+            transitionSpeed={2000}
+            tiltAxis='y'
+          >
+            <div className='img-overlay'></div>
+            <img src={GfinderImg} alt='GfinderImg'></img>
+          </Tilt>
+          <button className='btn btn-primary'>View Project</button>
+          <button className='btn btn-primary'>View Code</button>
+        </div>
         <div className='col-md-6'>
           <h4 className='text-primary mb-3'>
             A web application that could search Github users and get their

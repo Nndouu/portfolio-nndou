@@ -11,7 +11,7 @@ const Contacter = () => {
           <Tilt
             glareEnable={true}
             glareMaxOpacity={0.8}
-            glareColor='#fff'
+            glareColor='rgba(16, 20, 20, 0.3)'
             glarePosition='all'
             scale='1.25'
             transitionSpeed={2000}
@@ -20,6 +20,7 @@ const Contacter = () => {
             <div className='img-overlay'></div>
             <img src={contacterImg}></img>
           </Tilt>
+          <button className='btn btn-primary'>View Project</button>
           <button className='btn btn-primary'>View Project</button>
         </div>
         <div className='col-md-6'>
