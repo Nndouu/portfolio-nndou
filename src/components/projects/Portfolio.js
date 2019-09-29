@@ -2,10 +2,10 @@ import React from "react";
 import contacterImg from "../../images/project-images/contacter_1.png";
 import Tilt from "react-parallax-tilt";
 
-const Contacter = () => {
+const Portfolio = () => {
   return (
     <div className='contacter'>
-      <h3>Contacter</h3>
+      <h3>Portfolio</h3>
       <div className='row'>
         <div className='col-md-6'>
           <Tilt
@@ -17,7 +17,6 @@ const Contacter = () => {
             transitionSpeed={2000}
             tiltAxis='y'
           >
-            <div className='img-overlay'></div>
             <img src={contacterImg}></img>
           </Tilt>
           <button className='btn btn-primary'>View Project</button>
@@ -45,4 +44,4 @@ const Contacter = () => {
   );
 };
 
-export default Contacter;
+export default Portfolio;

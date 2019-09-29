@@ -1,6 +1,7 @@
 import React from "react";
 import Contacter from "../projects/Contacter";
 import Gfinder from "../projects/Gfinder";
+import Portfolio from "../projects/Portfolio";
 
 const Projects = () => {
   return (
@@ -10,6 +11,8 @@ const Projects = () => {
       <Contacter />
       {/* Project G-finder */}
       <Gfinder />
+      {/* Project Portfolio */}
+      <Portfolio />
     </section>
   );
 };
