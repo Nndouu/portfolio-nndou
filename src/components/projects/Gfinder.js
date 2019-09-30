@@ -21,8 +21,30 @@ const Gfinder = () => {
             <div className='img-overlay'></div>
             <img src={GfinderImg} alt='GfinderImg'></img>
           </Tilt>
-          <button className='btn btn-primary'>View Project</button>
-          <button className='btn btn-primary'>View Code</button>
+          <div className='row mt-2 mb-5'>
+            <div className='col-md-6'>
+              <a
+                href='https://contact-book-nndou.herokuapp.com/'
+                class='btn btn-project'
+              >
+                <svg>
+                  <rect x='0' y='0' fill='none' width='100%' height='100%' />
+                </svg>
+                View Project
+              </a>
+            </div>
+            <div className='col-md-6'>
+              <a
+                href='https://github.com/Nndouu/contact-book'
+                class='btn btn-project'
+              >
+                <svg>
+                  <rect x='0' y='0' fill='none' width='100%' height='100%' />
+                </svg>
+                View Code
+              </a>
+            </div>
+          </div>
         </div>
         <div className='col-md-6'>
           <h4 className='text-primary mb-3'>

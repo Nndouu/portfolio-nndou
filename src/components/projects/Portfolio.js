@@ -17,7 +17,7 @@ const Portfolio = () => {
             transitionSpeed={2000}
             tiltAxis='y'
           >
-            <img src={contacterImg}></img>
+            <img src={contacterImg} alt='contacterImg'></img>
           </Tilt>
           <button className='btn btn-primary'>View Project</button>
         </div>

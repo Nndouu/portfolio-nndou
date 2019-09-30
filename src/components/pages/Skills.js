@@ -3,7 +3,11 @@ import React from "react";
 const Skills = () => {
   return (
     <section className='skills'>
-      <h2 className='text-center'>Skills</h2>
+      <div className='section-head'>
+        <h6 className='text-center'>View My Skills</h6>
+        <h2 className='text-center'>Skills</h2>
+        <div className='underline'></div>
+      </div>
       <div className='row'>
         <div className='col-md-10 mx-auto'>
           {/* Tech Skills*/}
@@ -28,14 +32,6 @@ const Skills = () => {
           </p>
           <p>• Tool: VSCode, Visual Studio, Eclipse, Jupyter Notebook</p>
           <p>• Cloud: AWS, Heroku</p>
-          {/* UX Skills */}
-          <h3>UX Skills</h3>
-          <p>• Design Process: Conceptual Design, Interaction Design</p>
-          <p>• Prototyping software: Mockplus, Balsamiq Mockups</p>
-          <p>
-            • Testing: TAM, SUS, Time on Task, A/B testing, Cognitive
-            walkthrough, Heuristic evaluation
-          </p>
           {/* UX Skills */}
           <h3>UX Skills</h3>
           <p>• Design Process: Conceptual Design, Interaction Design</p>

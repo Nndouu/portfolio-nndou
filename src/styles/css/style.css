@@ -1,6 +1,6 @@
 body {
   background-color: rgba(16, 20, 20, 0.99);
-  font-family: "Open Sans", sans-serif; }
+  font-family: "Titillium Web", sans-serif; }
 
 nav {
   font-weight: 700; }
@@ -171,12 +171,12 @@ nav {
     transform: translateY(-1000px) rotate(720deg);
     opacity: 0;
     border-radius: 50%; } }
-.projects h2 {
+.section-head h2 {
   color: #f8f9fa;
   padding: 60px 0;
   font-size: 45px;
   font-weight: 700; }
-.projects .underline {
+.section-head .underline {
   width: 80px;
   height: 0;
   border: #11aba2;
@@ -185,21 +185,24 @@ nav {
   margin: auto;
   position: relative;
   top: -50px; }
-.projects h6 {
+.section-head h6 {
   position: relative;
   top: 70px;
   color: #11aba2;
   font-size: 14px;
   font-weight: 700; }
+
 .projects h3 {
-  color: #11aba2;
-  margin: 50px 0; }
+  color: #f8f9fa;
+  margin: 50px 0;
+  font-size: 36px;
+  font-weight: 600; }
 .projects .img-overlay {
   position: absolute;
   width: 100%;
   height: 100%;
   border-radius: 8px;
-  background-color: rgba(27, 31, 31, 0.5);
+  background-color: rgba(27, 31, 31, 0.3);
   z-index: 1;
   transition: all 0.5s; }
   .projects .img-overlay:hover {
@@ -208,16 +211,56 @@ nav {
   width: 100%;
   border-radius: 8px;
   z-index: 0; }
+.projects .btn-project {
+  color: #f8f9fa;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: 100;
+  transition: all 0.35s linear;
+  line-height: 40px;
+  border-radius: 0px;
+  margin: 10px 0 0;
+  position: relative;
+  text-decoration: none;
+  text-transform: uppercase;
+  width: 100%;
+  display: block; }
+  .projects .btn-project svg {
+    height: 50px;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 100%; }
+  .projects .btn-project rect {
+    fill: none;
+    stroke: #11aba2;
+    stroke-width: 2;
+    stroke-dasharray: 422, 0;
+    transition: all 0.35s linear; }
+  .projects .btn-project:hover {
+    text-decoration: none;
+    background: rgba(17, 171, 162, 0);
+    font-weight: 600;
+    letter-spacing: 1px; }
+    .projects .btn-project:hover rect {
+      stroke-width: 5;
+      stroke-dasharray: 15, 310;
+      stroke-dashoffset: 48;
+      transition: all 1.35s cubic-bezier(0.19, 1, 0.22, 1); }
 .projects .contacter {
-  height: 700px;
   background-color: rgba(112, 202, 187, 0.02);
   padding: 30px;
-  margin-bottom: 30px; }
+  margin-bottom: 100px;
+  border: #11aba2;
+  border-top-style: solid;
+  border-top-width: 1px; }
 .projects .g-finder {
-  height: 700px;
   background-color: rgba(112, 202, 187, 0.02);
   padding: 30px;
-  margin-bottom: 30px; }
+  margin-bottom: 100px;
+  border: #11aba2;
+  border-top-style: solid;
+  border-top-width: 1px; }
 
 .skills {
   color: #fff; }
