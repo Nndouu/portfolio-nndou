@@ -4,7 +4,7 @@ import Tilt from "react-parallax-tilt";
 
 const Gfinder = () => {
   return (
-    <div className='g-finder'>
+    <div className='project'>
       <h3>G-finder</h3>
       <div className='row'>
         <div className='col-md-6'>
@@ -24,8 +24,10 @@ const Gfinder = () => {
           <div className='row mt-2 mb-5'>
             <div className='col-md-6'>
               <a
-                href='https://contact-book-nndou.herokuapp.com/'
-                class='btn btn-project'
+                href='https://gfinder.netlify.com'
+                className='btn btn-project'
+                target='_blank'
+                rel='noopener noreferrer'
               >
                 <svg>
                   <rect x='0' y='0' fill='none' width='100%' height='100%' />
@@ -36,7 +38,9 @@ const Gfinder = () => {
             <div className='col-md-6'>
               <a
                 href='https://github.com/Nndouu/contact-book'
-                class='btn btn-project'
+                className='btn btn-project'
+                target='_blank'
+                rel='noopener noreferrer'
               >
                 <svg>
                   <rect x='0' y='0' fill='none' width='100%' height='100%' />
@@ -51,16 +55,19 @@ const Gfinder = () => {
             A web application that could search Github users and get their
             information and repositories
           </h4>
-          <p className='text-light'>
-            • Used CSS3, Sass, HTML5, JavaScript, React.js, React hooks,
-            Bootstrap, Responsive design for front-end development
-          </p>
-          <p className='text-light'>
-            • Used Context API for state management, Animate.css for animations
-          </p>
-          <p className='text-light'>
-            • Getting raw data from GitHub Developer API
-          </p>
+          <div className='project-info'>
+            <p className='text-light'>
+              • Used CSS3, Sass, HTML5, JavaScript, React.js, React hooks,
+              Bootstrap, Responsive design for front-end development
+            </p>
+            <p className='text-light'>
+              • Used Context API for state management, Animate.css for
+              animations
+            </p>
+            <p className='text-light'>
+              • Getting raw data from GitHub Developer API
+            </p>
+          </div>
         </div>
       </div>
     </div>

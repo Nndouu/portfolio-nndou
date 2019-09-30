@@ -4,7 +4,7 @@ import Tilt from "react-parallax-tilt";
 
 const Contacter = () => {
   return (
-    <div className='contacter'>
+    <div className='project'>
       <h3>Contacter</h3>
       <div className='row'>
         <div className='col-md-6'>
@@ -26,7 +26,9 @@ const Contacter = () => {
             <div className='col-md-6'>
               <a
                 href='https://contact-book-nndou.herokuapp.com/'
-                class='btn btn-project'
+                target='_blank'
+                rel='noopener noreferrer'
+                className='btn btn-project'
               >
                 <svg>
                   <rect x='0' y='0' fill='none' width='100%' height='100%' />
@@ -37,7 +39,9 @@ const Contacter = () => {
             <div className='col-md-6'>
               <a
                 href='https://github.com/Nndouu/contact-book'
-                class='btn btn-project'
+                target='_blank'
+                rel='noopener noreferrer'
+                className='btn btn-project'
               >
                 <svg>
                   <rect x='0' y='0' fill='none' width='100%' height='100%' />
@@ -53,18 +57,20 @@ const Contacter = () => {
             A web application that user can register, login, which they could
             use this app to keep and manage their contact details with others{" "}
           </h4>
-          <p className='text-light'>
-            • Used CSS3, Sass, HTML5, JavaScript, React.js, React hooks,
-            Bootstrap, Responsive design for front-end development
-          </p>
-          <p className='text-light'>
-            • Used Context API for state management, and used
-            react-transition-group and Animate.css for animations
-          </p>
-          <p className='text-light'>
-            • Used Node.js, MongoDB, Express, Mongoose, RESTful API for back-end
-            development. Used JWT for authentication
-          </p>
+          <div className='project-info'>
+            <p>
+              • Used CSS3, Sass, HTML5, JavaScript, React.js, React hooks,
+              Bootstrap, Responsive design for front-end development
+            </p>
+            <p>
+              • Used Context API for state management, and used
+              react-transition-group and Animate.css for animations
+            </p>
+            <p>
+              • Used Node.js, MongoDB, Express, Mongoose, RESTful API for
+              back-end development. Used JWT for authentication
+            </p>
+          </div>
         </div>
       </div>
     </div>
