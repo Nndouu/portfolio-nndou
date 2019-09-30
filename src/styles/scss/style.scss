@@ -10,6 +10,8 @@ body {
 }
 nav {
   font-weight: 700;
+  // background: black;
+  // opacity: 0.5;
 }
 
 // ######## Home Section ########
@@ -22,6 +24,12 @@ nav {
     h1 {
       font-size: 7rem;
       font-weight: 600;
+    }
+    //Change the font size when using ipad
+    @media only screen and (max-width: 600px) {
+      h1 {
+        font-size: 4rem;
+      }
     }
     // Info Icons
     a {

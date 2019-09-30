@@ -13,6 +13,9 @@ nav {
   .home .home-content h1 {
     font-size: 7rem;
     font-weight: 600; }
+  @media only screen and (max-width: 600px) {
+    .home .home-content h1 {
+      font-size: 4rem; } }
   .home .home-content a {
     color: #fff;
     font-size: 35px;

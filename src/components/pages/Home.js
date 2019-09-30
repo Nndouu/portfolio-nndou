@@ -1,6 +1,23 @@
-import React from "react";
+import React, { useState, useRef } from "react";
+import resume from "../../resume/CV_Yiping_Niu.pdf";
+import { Button, Modal } from "react-bootstrap";
 
 const Home = () => {
+  const [show, setShow] = useState(false);
+
+  const handleClose = () => setShow(false);
+  const handleShow = () => setShow(true);
+  const [copySuccess, setCopySuccess] = useState("");
+  const textAreaRef = useRef(null);
+
+  function copyToClipboard(e) {
+    textAreaRef.current.select();
+    document.execCommand("copy");
+    // This is just personal preference.
+    // I prefer to not show the the whole text area selected.
+    e.target.focus();
+    setCopySuccess("Copied!");
+  }
   return (
     <section className='home'>
       <div className='home-background'>
@@ -39,12 +56,36 @@ const Home = () => {
           >
             <span>Github</span>
           </a>
-          <a href='#!'>
+          <a href='#!' onClick={handleShow}>
             <span>Email</span>
           </a>
-          <a href='#!'>
+          <a target='_blank' rel='noopener noreferrer' href={resume}>
             <span>Resume</span>
           </a>
+
+          <Modal show={show} onHide={handleClose} size='sm' centered>
+            <Modal.Header closeButton>
+              <Modal.Title>My Email</Modal.Title>
+            </Modal.Header>
+            <Modal.Body>
+              <form>
+                <input
+                  ref={textAreaRef}
+                  defaultValue='yp.niu.dev@gmail.com'
+                  style={{ borderWidth: "0px" }}
+                ></input>
+              </form>
+            </Modal.Body>
+            <Modal.Footer className='py-1'>
+              {copySuccess}
+              <Button
+                variant='secondary'
+                onClick={(handleClose, copyToClipboard)}
+              >
+                Copy
+              </Button>
+            </Modal.Footer>
+          </Modal>
         </div>
       </div>
     </section>

@@ -40,7 +40,7 @@ const Contact = () => {
           <div className='col-md-6 px-3'>
             <span>
               <textarea
-                class='balloon'
+                className='balloon'
                 id='message'
                 type='text'
                 placeholder='Enter you message here.'
