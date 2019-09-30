@@ -10,10 +10,12 @@ body {
 }
 nav {
   font-weight: 700;
-  // background: black;
-  // opacity: 0.5;
+  font-size: 16px;
 }
-
+.navbar-dark {
+  background: black;
+  opacity: 0.6;
+}
 // ######## Home Section ########
 .home {
   height: 100vh;
@@ -113,7 +115,7 @@ nav {
   .home-background {
     height: 100vh;
     background-color: black;
-    background: url("../../images/bridge-2122681.jpg");
+    background: url("../../images/bridge_600.jpg");
     background-size: cover;
     position: absolute;
     top: 0;
@@ -374,7 +376,7 @@ nav {
 //######## Contact Section ########
 .contact {
   // background-color: #568192;
-  height: 800px;
+  height: 900px;
   span {
     position: relative;
     display: inline-block;

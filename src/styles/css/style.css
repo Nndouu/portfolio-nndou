@@ -3,7 +3,12 @@ body {
   font-family: "Titillium Web", sans-serif; }
 
 nav {
-  font-weight: 700; }
+  font-weight: 700;
+  font-size: 16px; }
+
+.navbar-dark {
+  background: black;
+  opacity: 0.6; }
 
 .home {
   height: 100vh;
@@ -79,7 +84,7 @@ nav {
   .home .home-background {
     height: 100vh;
     background-color: black;
-    background: url("../../images/bridge-2122681.jpg");
+    background: url("../../images/bridge_600.jpg");
     background-size: cover;
     position: absolute;
     top: 0;
@@ -275,7 +280,7 @@ nav {
     color: #11aba2; }
 
 .contact {
-  height: 800px; }
+  height: 900px; }
   .contact span {
     position: relative;
     display: inline-block;

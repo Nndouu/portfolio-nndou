@@ -4,8 +4,18 @@ import { Link } from "react-scroll";
 const Navbar = () => {
   //Scroll spy state change
   const [homeColor, setHomeColor] = useState("nav-link text-light");
-  const handleHomeActive = () => setHomeColor("nav-link text-primary");
-  const handleHomeInactive = () => setHomeColor("nav-link text-light");
+  const [navColor, setNavColor] = useState(
+    "navbar navbar-expand navbar-dark fixed-top"
+  );
+
+  const handleHomeActive = () => {
+    setNavColor("navbar navbar-expand fixed-top");
+    setHomeColor("nav-link text-primary");
+  };
+  const handleHomeInactive = () => {
+    setNavColor("navbar navbar-expand navbar-dark fixed-top");
+    setHomeColor("nav-link text-light");
+  };
 
   const [projectsColor, setProjectsColor] = useState("nav-link text-light");
   const handleProjectsActive = () => setProjectsColor("nav-link text-primary");
@@ -20,7 +30,7 @@ const Navbar = () => {
   const handleContactInactive = () => setContactColor("nav-link text-light");
 
   return (
-    <nav className='navbar navbar-expand fixed-top'>
+    <nav className={navColor}>
       <div className='container'>
         <ul className='navbar-nav m-auto'>
           <li className='nav-item mx-3'>
