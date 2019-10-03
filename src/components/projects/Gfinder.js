@@ -37,7 +37,7 @@ const Gfinder = () => {
             </div>
             <div className='col-md-6'>
               <a
-                href='https://github.com/Nndouu/contact-book'
+                href='https://github.com/Nndouu/g-finder'
                 className='btn btn-project'
                 target='_blank'
                 rel='noopener noreferrer'
