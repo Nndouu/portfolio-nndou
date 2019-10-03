@@ -11,6 +11,9 @@ body {
 nav {
   font-weight: 700;
   font-size: 16px;
+  @media only screen and (max-width: 400px) {
+    font-size: 0.8rem;
+  }
 }
 .navbar-dark {
   background: black;

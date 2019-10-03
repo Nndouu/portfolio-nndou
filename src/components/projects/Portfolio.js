@@ -1,5 +1,5 @@
 import React from "react";
-import contacterImg from "../../images/project-images/contacter_1.png";
+import portfolioImg from "../../images/project-images/portfolio_1.png";
 import Tilt from "react-parallax-tilt";
 
 const Portfolio = () => {
@@ -18,26 +18,27 @@ const Portfolio = () => {
             tiltAxis='y'
           >
             <div className='img-overlay'></div>
-            <img src={contacterImg} alt='contacterImg'></img>
+            <img src={portfolioImg} alt='portfolioImg'></img>
           </Tilt>
           {/* Buttoms */}
           <div className='row mt-2 mb-5'>
             <div className='col-md-6'>
-              <a
+              <button
                 href='https://contact-book-nndou.herokuapp.com/'
                 target='_blank'
                 rel='noopener noreferrer'
                 className='btn btn-project'
+                disabled
               >
                 <svg>
                   <rect x='0' y='0' fill='none' width='100%' height='100%' />
                 </svg>
-                View Project
-              </a>
+                This Project
+              </button>
             </div>
             <div className='col-md-6'>
               <a
-                href='https://github.com/Nndouu/contact-book'
+                href='https://github.com/Nndouu/portfolio-nndou'
                 target='_blank'
                 rel='noopener noreferrer'
                 className='btn btn-project'
@@ -53,7 +54,7 @@ const Portfolio = () => {
         <div className='col-md-6'>
           <h4 className='text-primary mb-3'>
             A web application that user can register, login, which they could
-            use this app to keep and manage their contact details with others{" "}
+            use this app to keep and manage their contact details with others
           </h4>
           <div className='project-info'>
             <p className='text-light'>
