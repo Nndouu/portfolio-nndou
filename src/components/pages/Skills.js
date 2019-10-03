@@ -35,14 +35,17 @@ const Skills = () => {
           {/* UX Skills */}
           <h3>UX Skills</h3>
           <p>• Design Process: Conceptual Design, Interaction Design</p>
-          <p>• Prototyping software: Mockplus, Balsamiq Mockups</p>
+          <p>
+            • Prototyping software:Photoshop, Illustrator, Mockplus, Balsamiq
+            Mockups
+          </p>
           <p>
             • Testing: TAM, SUS, Time on Task, A/B testing, Cognitive
             walkthrough, Heuristic evaluation
           </p>
           {/*Teamwork Skills */}
           <h3>Teamwork Skills</h3>
-          <p>• Tool: Git, Github, Bitbucket, Trello</p>
+          <p>• Tool: Git, Github, Trello,Bitbucket, Jira</p>
           <p>• Methodology: Agile, Scrum</p>
         </div>
       </div>

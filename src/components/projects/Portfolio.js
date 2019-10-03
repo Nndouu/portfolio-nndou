@@ -52,22 +52,15 @@ const Portfolio = () => {
           </div>
         </div>
         <div className='col-md-6'>
-          <h4 className='text-primary mb-3'>
-            A web application that user can register, login, which they could
-            use this app to keep and manage their contact details with others
-          </h4>
+          <h4 className='text-primary mb-3'>My portfolio website.</h4>
           <div className='project-info'>
             <p className='text-light'>
               • Used CSS3, Sass, HTML5, JavaScript, React.js, React hooks,
               Bootstrap, Responsive design for front-end development
             </p>
             <p className='text-light'>
-              • Used Context API for state management, and used
-              react-transition-group and Animate.css for animations
-            </p>
-            <p className='text-light'>
               • Used Node.js, MongoDB, Express, Mongoose, RESTful API for
-              back-end development. Used JWT for authentication
+              back-end development.
             </p>
           </div>
         </div>

@@ -18,6 +18,8 @@ nav {
   display: flex;
   justify-content: center;
   align-items: center; }
+  .home .home-content p {
+    font-size: 20px; }
   .home .home-content h1 {
     font-size: 7rem;
     font-weight: 600; }
@@ -280,7 +282,8 @@ nav {
     color: #fff;
     padding-top: 60px; }
   .skills h3 {
-    color: #11aba2; }
+    color: #11aba2;
+    margin-top: 30px; }
 
 .contact {
   height: 900px; }
