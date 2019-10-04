@@ -15,7 +15,7 @@ const Skills = () => {
           <p>
             • Front-End Development: CSS3, Sass, HTML5, AJAX, JavaScript,
             React.js, React Context API, React Hooks, Bootstrap, Semantic UI,
-            Responsive design
+            Pug, Responsive design
           </p>
           <p>
             • Back-End Development: Node.js, Express, Mongoose, RESTful API,
