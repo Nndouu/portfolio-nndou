@@ -3,7 +3,6 @@ $light: #f8f9fa;
 $primary-green-light: #0fd35c;
 $primary-green: #11aba2;
 body {
-  //   background: url("../../images/bridge-2122681.jpg");
   background-color: rgba(16, 20, 20, 0.99);
   // font-family: "Open Sans", sans-serif;
   font-family: "Titillium Web", sans-serif;
@@ -42,7 +41,6 @@ nav {
     // Info Icons
     a {
       color: #fff;
-      // background: #11aba2;
       font-size: 35px;
       border-radius: 4px;
       text-align: center;
@@ -61,7 +59,6 @@ nav {
       -webkit-font-smoothing: antialiased;
     }
     a:hover {
-      // background: #0fd35c;
       color: #11aba2;
     }
     //pop-up text
@@ -310,7 +307,6 @@ nav {
     line-height: 40px;
     border-radius: 0px;
     margin: 10px 0 0;
-    // max-width: 160px;
     position: relative;
     text-decoration: none;
     text-transform: uppercase;
@@ -368,7 +364,6 @@ nav {
 
 //######## Skills Section #######
 .skills {
-  //   background-color: #566492;
   h2 {
     color: #fff;
     padding-top: 60px;
