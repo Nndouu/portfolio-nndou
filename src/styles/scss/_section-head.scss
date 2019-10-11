@@ -1,0 +1,26 @@
+//######## Section Head ########
+.section-head {
+  h2 {
+    color: $light;
+    padding: 60px 0;
+    font-size: 45px;
+    font-weight: 700;
+  }
+  .underline {
+    width: 80px;
+    height: 0;
+    border: $primary-green;
+    border-bottom-style: solid;
+    border-bottom-width: 3px;
+    margin: auto;
+    position: relative;
+    top: -50px;
+  }
+  h6 {
+    position: relative;
+    top: 70px;
+    color: $primary-green;
+    font-size: 14px;
+    font-weight: 700;
+  }
+}
