@@ -2,6 +2,8 @@ import React from "react";
 import Contacter from "../projects/Contacter";
 import Gfinder from "../projects/Gfinder";
 import Portfolio from "../projects/Portfolio";
+import JrOfficial from "../projects/JrOfficial";
+import JrDashboard from "../projects/JrDashboard";
 
 const Projects = () => {
   return (
@@ -11,6 +13,10 @@ const Projects = () => {
         <h2 className='text-center'>Projects</h2>
         <div className='underline'></div>
       </div>
+      {/* Project JR Academy official site */}
+      <JrOfficial />
+      {/* Project JR Academy dashboard */}
+      <JrDashboard />
       {/* Project Contecter */}
       <Contacter />
       {/* Project G-finder */}
