@@ -40,7 +40,9 @@ const Home = () => {
       <div className='home-content text-center'>
         <p className='text-light mb-0'>Hello. I'm</p>
         <h1 className='text-light title'>YIPING NIU</h1>
-        <h3 className='text-primary'>Web Developer</h3>
+        <h3 className='text-primary'>
+          Full-stack Developer | Front-end Developer
+        </h3>
         <div className='text-center mt-5'>
           <a
             href='https://www.linkedin.com/in/yiping-niu/'

@@ -23,6 +23,8 @@ nav {
   .home .home-content h1 {
     font-size: 7rem;
     font-weight: 600; }
+  .home .home-content h3 {
+    font-size: 1.25rem; }
   @media only screen and (max-width: 600px) {
     .home .home-content h1 {
       font-size: 4rem; } }
